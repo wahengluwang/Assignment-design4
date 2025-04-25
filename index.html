@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NIELIT Imphal</title>
+    <style>
+.header {
+    display: flex;
+    color: #07507B;
+    padding: 20px 30px;
+}
+
+.header .recog {
+    color: #000;
+}
+
+nav {
+    width: 100%;
+    background-color: #07507B;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0 30px;
+}
+
+nav li {
+    padding: 20px 0;
+    margin: 0 10px;
+    position: relative;
+}
+
+nav li:hover {
+    background-color: #009afd;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 60px;
+    left: 0;
+    width: 250px;
+    padding: 0;
+}
+
+.dropdown li {
+    padding: 10px;
+    background-color: #e4f4fd;
+    cursor: pointer;
+}
+
+.dropdown li:hover {
+    background-color: #009afd;
+}
+
+nav li:hover .dropdown {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    padding: 0 30px;
+}
+
+main .intro {
+    width: 65%;
+    margin-right: 80px;
+}
+
+main .notice-accred {
+    width: 30%;
+}
+
+.welcome {
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: #07507B;
+    margin: 30px 0;
+}
+
+.main-text div img {
+    float: left;
+    margin-right: 20px;
+}
+
+.main-text p {
+    text-align: justify;
+    line-height: 25px;
+}
+
+.notice-accred ul {
+    list-style-type: none;
+}
+
+.notice-accred a {
+    color: #07507B;
+}
+
+.notice-accred li {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.notice-accred .date {
+    width: fit-content;
+    font-size: 0.7rem;
+    padding: 10px;
+    background-color: #009afd;
+    color: #fff;
+    margin-right: 10px;
+}
+
+footer {
+    padding: 0 0 0 30px;
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    background-color: #eee;
+}
+
+.link-service {
+    width: 30%;
+}
+
+.links ol {
+    padding: 0 0 0 30px;
+}
+
+.links a {
+    color: #07507B;
+}
+
+.services ol {
+    padding: 0 0 0 30px;
+}
+
+.services a {
+    color: #07507B;
+}
+
+.contact {
+    width: 30%;
+}
+
+.form {
+    background-color: #009afd;
+    padding: 0 30px 0 20px;
+    width: 40%;
+}
+
+.form .welcome {
+    color: #fff;
+}
+
+.form td {
+    padding-bottom: 10px;
+}
+
+.form td label {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    font-size: 0.85rem;
+    color: #fff;
+}
+
+.form table {
+    width: 100%;
+}
+
+.form input {
+    padding: 1px 0;
+    width: 100%;
+}
+
+.form textarea {
+    padding: 20px 0;
+    width: 100%;
+}
+
+.form .submit {
+    width: fit-content;
+    padding: 5px 10px;
+    background-color: #07507B;
+    color: #fff;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="Nielitlogo.png" alt="nielit" width= 30px" height= 30px">
+            <div>
+                <h1>NATIONAL INSTITUTE OF ELECTRONICS & INFORMATION TECHNOLOGY</h1>
+                <p class="recog">Recog: Ministry of Electronics & Information Technology</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">About us</a>
+                    <ul class="dropdown">
+                        <li>Introduction</li>
+                        <li>Executive Director's desk</li>
+                        <li>Vision</li>
+                        <li>Mission</li>
+                        <li>Acts & rules</li>
+                        <li>Policies & guidelines</li>
+                        <li>Organization structure</li>
+                        <li>Recognition</li>
+                        <li>Institution</li>
+                        <li>NIELIT Society</li>
+                        <li>NIELIT Scheme</li>
+                        <li>Disclaimer</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Management</a>
+                    <ul class="dropdown">
+                        <li>Organization structure</li>
+                        <li>Governing Council</li>
+                        <li>Management Board</li>
+                        <li>Finance & Account Committee</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                    <ul class="dropdown">
+                        <li>Online Class</li>
+                        <li>Activities</li>
+                        <li>Infrastructure</li>
+                        <li>Cyber Security Awareness Project</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Student zone</a>
+                    <ul class="dropdown">
+                        <li>Courses offered by NIELIT Imphal</li>
+                        <li>Results</li>
+                        <li>Download</li>
+                        <li>Admissions</li>
+                        <li>Non-formal courses</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">News</a>
+                    <ul class="dropdown">
+                        <li>Academic News</li>
+                        <li>NIELIT News</li>
+                        <li>NIELIT in press</li>
+                    </ul>
+                </li>
+                <li><a href="#">Recruitment</a></li>
+                <li><a href="#">Tenders/Eol</a></li>
+                <li>
+                    <a href="#">Contact us</a>
+                    <ul class="dropdown">
+                        <li>Nodal officer for handling COVID-19 public grievances</li>
+                        <li>NIELIT Imphal contact detials</li>
+                        <li>Right to Information</li>
+                        <li>Grievance Redress</li>
+                        <li>Vigilance officer</li>
+                        <li>Kakching</li>
+                    </ul>
+                </li>
+                <li><a href="#">NIELIT HQ</a></li>
+                <li><a href="#">AICTE Approval</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="https://nielit.gov.in/sites/default/files/pic1_1.jpg" alt="" width="100%">
+        <div class="main">
+            <div class="intro">
+                <div class="main-text">
+                    <p class="welcome">WELCOME TO NIELIT IMPHAL OFFICIAL WEBSITE</p>
+                    <div>
+                        <img src="nielit-imphal.jpg" alt="" width="400px">
+                        <p>NIELIT Imphal (erstwhile CEDT/CEDTI/DOEACC) became operational in July 1989 with the introduction of Three Years Diploma in Electronics Engineering Course. There are 02 Extension Centres of NIELIT Imphal at Churachandpur & Senapati Districts of Manipur. There are 21 NIELIT Centres & Extension Centres in the North Eastern parts of India (Out of 43 all over India).
+        
+                        The Centre is located at Akampat, about 5 kms. in the south-east direction from the heart of the Imphal city. Spread over an area of more than 20 acres, it houses the main Institute Buildings consisting of Administrative wing, Lecture Halls, Faculty Rooms, Computer Labs, Mechanical Workshop and several labs in the field of Information, Electronics & Communication Technology. Besides the main institute building, the campus houses the staff quarters, students' hostels, electrical substation and other host of essential facilities.
+
+                        NIELIT Imphal is participating in Nation Building by conducting various long term & short term skill development courses in the fields of Electronics & Communication Engineering and Information Technology. NIELIT Imphal also offers various short term courses in the skill development sector with an objective of enhancing the employability of the youth of the state and country as a whole as mandated by the Govt. of India under the National Skill Development policy.
+
+                        The long-term courses viz, Diploma in Electronics and Communication Engineering (AICTE recognized), Diploma in Computer Science & Engineering (AICTE recognized), Post Graduate Diploma in Computer Applications (PGDCA), Bachelor of Computer Applications (BCA), Master of Computer Application (MCA) and Master of Science in Information Technology (MSc.IT) are formal courses affiliated to Manipur University (A Central University). NIELIT 'O' Level courses in IT, Hardware and Multimedia are in the non-formal sector but, leading to govt. recognized certificate/P.G. Diploma.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="notice-accred">
+                <p class="welcome">NOTICE</p>
+                <ul>
+                    <li><div class="date">13 Nov, 2024</div><a href="">One Day Mega Job Fair</a></li>
+                    <li><div class="date">25 Aug, 2024</div><a href="">Webinar on Big Data & Hadoop</a></li>
+                    <li><div class="date">12 May, 2024</div><a href="">M.C.A. Admission 2024</a></li>
+                    <li><div class="date">07 May, 2024</div><a href="">B.C.A. Admission 2024</a></li>
+                    <li><div class="date">04 May, 2024</div><a href="">B.C.A. Entrance Result 2024</a></li>
+                </ul>
+                <p class="welcome">ACCREDITATION</p>
+                <p>NIELIT Imphal is recognized by the government of India under the Ministry of Electronics and Information Technology</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="link-service">
+            <div class="links">
+                <p class="welcome">IMPORTANT LINK</p>
+                <ol>
+                    <li><a href="">Government of Manipur</a></li>
+                    <li><a href="">AICTE</a></li>
+                    <li><a href="">Act and Rules</a></li>
+                </ol>
+            </div>
+            <div class="services">
+                <p class="welcome">ONLINE SERVICES</p>
+                <ol>
+                    <li><a href="">Registration</a></li>
+                    <li><a href="">Examination</a></li>
+                    <li><a href="">Accreditation</a></li>
+                    <li><a href="">CCC/BCC Facilitation</a></li>
+                    <li><a href="">Recruitments</a></li>
+                </ol>
+            </div>
+        </div>
+        <div class="contact">
+            <p class="welcome">CONTACT ADDRESS</p>
+            <p><b>NIELIT Imphal</b></p><br>
+            <p>NIELIT Imphal,<br>Akampat P.O.Box-104,<br>Imphal, Manipur-795001</p><br>
+            <p><b><i>TEL: </i></b>(0385)2454109</p><br>
+            <p><b><i>E-mail: </i></b>dir-imphal@nielit.gov.in</p>
+        </div>
+        <div class="form">
+            <p class="welcome">CONTACT FORM</p>
+            <form action="">
+                <table>
+                    <tr>
+                        <td width="20%"><label for="name">Name&nbsp;&nbsp;</label></td>
+                        <td><input type="text" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td width="20%"><label for="contact">Contact No.&nbsp;&nbsp;</label></td>
+                        <td><input type="text" id="contact"></td>
+                    </tr>
+                    <tr>
+                        <td width="20%"><label for="email">Email&nbsp;&nbsp;</label></td>
+                        <td><input type="text" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td width="20%"><label for="subject">Subject&nbsp;&nbsp;</label></td>
+                        <td><input type="text" id="subject"></td>
+                    </tr>
+                    <tr>
+                        <td width="20%"><label for="message">Message&nbsp;&nbsp;</label></td>
+                        <td><textarea id="message"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" class="submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
